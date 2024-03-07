@@ -1,0 +1,99 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+body {
+    background-color: #11120c;
+    color: #fff;
+    font-size: 1rem; /* Use a relative font size */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #FF862F;
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background-color: #65b791;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.5s, transform 0.5s;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+
+.price input {
+    width: 20%;
+}
+
+/* Total styles */
+#total {
+    background-color: #a00d02;
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+
+#total::before {
+    content: "total: ";
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #875a85;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s, letter-spacing 0.5s;
+}
+
+button:hover {
+    background-color: #9242dd;
+    letter-spacing: 2px;
+}
+
+/* Search button styles */
+.botnsearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botnsearch button {
+    width: 45%;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+/* Delete all styles */
+#deleteAll {
+    margin-top: 10px;
+}
